@@ -18,4 +18,3 @@ const btn = () => {
 };
 
 mobile_nav.addEventListener("click", () => togglebtn());
-
