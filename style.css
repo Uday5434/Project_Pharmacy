@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -53,45 +52,6 @@ body {
   /* padding: 0 20px; */
   width: 210px;
 }
-=======
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.navbar-lists{
-    display: flex;
-    margin-top: -3rem; 
-    justify-content: right;
-    align-items: center ;
-    gap: 4rem;
-    list-style: none;
-    background-color: bisque;
-    height: 5rem;
-    margin-top: -4rem;
-    width: 100;
-}
-
-.navbar-link:link,
-.navbar-link:visited{
-    display: inline-block;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-right: 2rem;
-    text-transform: uppercase;
-    color: #212529;
-    transition: all 0.3s;
-    font-family: "Poppins", sans-serif;
-  }
-
-  .logo_container h1{
-    margin-top: 10px;
-    font-weight: 900;
-    font-size: 40px;
-    padding: 0 20px;
->>>>>>> parent of 34074bc (mergeharshitfiles)
 
 .navbar-link:hover,
 .navbar-link:active {
@@ -99,16 +59,9 @@ body {
   transform: scale(1.1);
 }
 
-<<<<<<< HEAD
 .bar_icon {
   font-size: 32px;
 }
-=======
-  .navbar-link:hover,
-  .navbar-link:active{
-    color: #10c945;
-  }
->>>>>>> parent of 34074bc (mergeharshitfiles)
 
 /* hero section */
 
@@ -139,7 +92,6 @@ body {
   border-radius: 20%;
 }
 
-<<<<<<< HEAD
 .menu .tag {
   padding: 7px 70px;
   font-size: 19px;
@@ -177,49 +129,6 @@ body {
 .explore_btn:hover {
   color: red;
   transform: scale(1.1);
-=======
-  .hero_content{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 20px;
-   
-  }
-
-  .hero_image img{
-    margin-top: 50px;
-    width: 100%;
-    padding: 0 50px;
-    border-radius: 20%;
-
-  }
-
-  
-
-  .tag{
-    background-color: #149f39;
-    padding: 5px 10px;
-    color: white;
-    align-self: flex-start;
-  }
-
-  .hero_content h1 {
-    font-size: 72px;
-    line-height: 1.2;
-    font-weight: 400;
-  }
-
-  .explore_btn{
-    background: #ffc066;
-    align-self: flex-start;
-    font-weight: 400;
-    font-size: 20px;
-  }
-
-
-.explore_btn:hover{
-  color: red
->>>>>>> parent of 34074bc (mergeharshitfiles)
 }
 
 /* Features Section */
@@ -477,20 +386,11 @@ input[type="checkbox"] {
     text-align: center;
     flex-direction: column;
   }
-<<<<<<< HEAD
   #navbar-lists ul li {
     height: 50px;
   }
   .hero_content .col-box {
     /* right: 0; */
-=======
-
-  /* grid section  */
-
-  .grid-image {
-    border-radius: 10px;
-    transition: 0.2s ease-in-out;
->>>>>>> parent of 34074bc (mergeharshitfiles)
     width: 100%;
     height: fit-content;
   }
@@ -571,77 +471,11 @@ input[type="checkbox"] {
     position: relative;
     top: 0px;
   }
-<<<<<<< HEAD
   footer {
     padding: 20px 20px;
   }
   .link_lists {
     margin-top: 20px;
-=======
-
-
-   @media (max-width: 786px)  
-  {
-    .navbar-lists{
-      margin-top: 1rem;
-      flex-direction: column;
-    }
-
-  .navbar-lists{
-    background-color: white;
-  }
-
-    .hero {
-      flex-direction: column;
-    }
-    .hero_image {
-      display: flex;
-      justify-content: center;
-      
-    }
-
-    .hero_image img {
-      margin-top: 60%;
-      width: 80%;
-    }
-
-    .hero_content {
-      gap: 10px;
-      padding: 0 20px;
-    }
-
-    .hero_content h1 {
-      font-size: 32px;
-    }
-
-    .features {
-      flex-direction: column;
-    }
-
-    .feature {
-      flex-direction: column;    
-    }
-
-    .grid {
-      padding: 10px;
-    }
-
-    .grid {
-      padding: 10px;
-    }
-    .grid-image {
-      border-radius: 0px;
-    }
-
-    #menu_row{
-      flex-wrap: wrap;
-      padding: 0 10px 0 10px;
-    }
-
-    .footer_container {
-      flex-direction: column;
-    }
->>>>>>> parent of 34074bc (mergeharshitfiles)
   }
   .feature img {
     margin-left: 44%;
