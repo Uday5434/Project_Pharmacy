@@ -17,20 +17,20 @@
         $('#mycheckbox').change(function () {
           if ($('#mycheckbox').is(':checked')) {
             $('#navbar-lists').toggle();
-            $('.container').css({
+            $('.itcontainer').css({
               'top': '200px'
             })
           }
           else {
             $('#navbar-lists').toggle();
-            $('.container').css({
+            $('.itcontainer').css({
               'top': '0'
             })
           }
         });
       });
     </script>
-    <nav class="navigation container">
+    <nav class="navigation ">
       <div class="logo_container">
 
         <img src="./icons/Pharmacy.png" alt="">
@@ -55,7 +55,7 @@
     <!-- menu section -->
 
     <section>
-      <div id="menu">
+      <div id="menu" class="container itcontainer">
         <h1 id="section">Menu</h1>
         <div id="menu_row">
           <div id="menu_col">
